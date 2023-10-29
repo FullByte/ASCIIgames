@@ -1,0 +1,7 @@
+Total amount of possible rolls: 216
+Total amount of distinct rolls: 56
+
+Dreifaltigkeit: 6 (2.8%)
+Wunsch: 90 (41.7%)
+Das Unvermeidliche: 96 (44.4%)
+Einhorn: 24 (11.1%)

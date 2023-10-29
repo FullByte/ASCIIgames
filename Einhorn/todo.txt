@@ -1,0 +1,11 @@
+TODO
+
+- Clear screen after round
+- Show round counter
+- Show current score of all players
+- Color code the players
+- ask for how many rounds players want to play
+- add abort option after each round
+- bid for the unicorn function
+- add max numbers of "rock" the bank has
+- add function that if no money is in the bank the game ends
