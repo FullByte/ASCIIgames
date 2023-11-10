@@ -15,9 +15,7 @@ def score_guess(guess, secret_code, verbose=False):
     return (red, white)
 
 def play_mastermind(n=5, c=7):
-    print("#" * 22)
-    print("Mastermind!")
-    print("#" * 22)
+    print("Mastermind!\n")
     print("\nYou are playing a game with {} colors and {} digits.".format(c, n))
     print()
 
