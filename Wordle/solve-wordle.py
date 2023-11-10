@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-#
-# Satisfiability modulo wordle: solving that annoying game for you, once and
-# for all.
-#
 # Usage:
 # $ python3 -m venv ./venv
 # $ source ./venv/bin/activate
@@ -15,7 +11,6 @@ import sys
 import z3
 
 from typing import Dict, List
-
 
 solver = z3.Solver()
 solver.set(unsat_core=True)
@@ -47,7 +42,6 @@ def init_logging(args: argparse.Namespace):
     if args.verbose == 1:
         l = logging.INFO
     elif args.verbose >= 2:
-        #z3.set_option(verbose=5)
         l = logging.DEBUG
     else:
         raise Exception(f"Unxpected verbosity level {args.verbose}")
